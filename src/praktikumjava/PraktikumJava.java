@@ -2,6 +2,7 @@ package praktikumjava;
 
 import Model.Mahasiswa;
 import Model.MahasiswaTransfer;
+import Model.Hp;
 
 public class PraktikumJava {
     public static void main (String [] args){
@@ -15,13 +16,22 @@ public class PraktikumJava {
         mahasiswa.viewData();
 
 
-
         Mahasiswa m1 = new Mahasiswa(
                 2,
                 "2110010589",
                 "Muhammad Hasani Waffa",
                 4);
         m1.viewData();
+
+
+        Hp hpsaya = new Hp ();
+
+        hpsaya.setId(1);
+        hpsaya.setMerek("Samsung Z Fold");
+        hpsaya.setRilis(2023);
+        hpsaya.setHarga(20000);
+
+        hpsaya.viewData();
 
 
 
