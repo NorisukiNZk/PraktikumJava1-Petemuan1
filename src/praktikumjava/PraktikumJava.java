@@ -33,6 +33,15 @@ public class PraktikumJava {
 
         hpsaya.viewData();
 
+        Hp hpdia = new Hp(
+                2,
+                "Nothing Phone",
+                2024,
+                80000
+        );
+
+        hpdia.viewData();
+
 
 
         MahasiswaTransfer mt = new MahasiswaTransfer();

@@ -6,6 +6,16 @@ public class Hp {
     private int rilis;
     private double harga;
 
+    public Hp() {
+    }
+
+    public Hp(int id, String merek, int rilis, double harga) {
+        this.id = id;
+        this.merek = merek;
+        this.rilis = rilis;
+        this.harga = harga;
+    }
+
     public int getId() {
         return id;
     }
